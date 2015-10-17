@@ -1,0 +1,23 @@
+data: {
+  user: [
+    { name: "Mariana Kurt",
+      face: {
+        color: 'white',
+        sensitive: 4,
+        care: "Only natural products"
+      },
+      hair: {
+        color: "black",
+        style: "curve",
+        damage_level: 2,
+        natural: false,
+        care: "Only natural products"
+      },
+      addess: "1200 River North, Chicago",
+      phone_number: "555-555-5555",
+      profile_picture: "",
+      email: "mariana@gmail.com",
+      description: ""
+    }
+  ]
+}

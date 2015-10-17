@@ -1,0 +1,32 @@
+  <ion-view view-title="Search">
+    <ion-content >
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <form ng-submit="onSearch()" >
+            <input type="text" placeholder="Search">
+          </form>
+        </label>
+      </div>
+
+      <div class="list card" ng-repeat="vendor in vendors.vendors" ng-click="clickHandler(vendor)">
+        <div class="item item-avatar">
+          <img src="img/vendor_placeholder.jpeg">
+          <h2>{{vendor.name}}</h2>
+          <p>Hair Stylist</p>
+        </div>
+
+        <div class="item tabs tabs-primary">
+          <a class="tab-item" href="#" ng-repeat="service in vendor.services">
+            {{ service.name }}
+          </a>
+        </div>
+        <div class="item row">
+          <a href="#" class="col subdued">5 Reviews</a>
+          <a href="#" class="col subdued">Rating {{ vendor.rating }} </a>
+          <a href="#" class="col subdued">{{ vendor.miles }} miles </a>
+        </div>
+      </div>
+    </ion-content>
+  </ion-view>
+

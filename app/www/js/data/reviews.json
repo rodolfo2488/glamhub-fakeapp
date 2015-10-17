@@ -1,0 +1,32 @@
+{
+  "data": {
+    "reviews": [
+      { "name": "Adriana Manna",
+        "id": "1",
+        "rate": "5",
+        "comments": "Best Haircut ever!"
+      },
+      { "name": "Glebys Werd",
+        "id": "1",
+        "rate": "1",
+        "comments": "not recommended for last minute appointment!"
+      },
+      { "name": "Mariana Swart",
+        "id": "1",
+        "rate": "3",
+        "comments": "Not good at followings instructions but really good service"
+      },
+      { "name": "Mariano Pizza",
+        "id": "1",
+        "rate": "2",
+        "comments": "Not good at cheese maker. Opps wrong app."
+      },
+      { "name": "Hodor",
+        "id": "1",
+        "rate": "4",
+        "comments": "Hodor"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,175 @@
+{
+  "data": {
+    "vendors": [
+      { "name": "Rodolfo Sanchez",
+        "id": "1",
+        "services": [
+          { "name": "Bridal Hair",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Blow Dry",
+            "price": "10",
+            "description": "blow dry" }
+        ],
+        "address": "549 West Randolph, Chicago",
+        "latLong": "41.8843058,-87.6418403",
+        "miles": "1",
+        "rating": "5",
+        "porfolio": [
+          { "image_url": "" },
+          { "image_url": "" },
+          { "image_url": "" }
+        ],
+        "active": "true"
+      },
+      { "name": "Keun Lee",
+        "id": "2",
+        "services": [
+          { "name": "Saturday Night Makeup",
+            "price": { "min": "100", "max": "160" },
+            "description": "" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "beard shaving",
+            "price": "20",
+            "description": "Beard Shaving" }
+        ],
+        "address": "200 W Jackson Street, Chicago",
+        "latLong": "41.8785115,-87.6342771",
+        "miles": "20",
+        "rating": "4",
+        "porfolio": "wwww.magickeun.com",
+        "active": "true"
+      },
+      { "name": "Kevin Cho",
+        "id": "3",
+        "services": [
+          { "name": "Interview Makeover",
+            "price": { "min": "40", "max": "160" },
+            "description": "" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Head Shaving",
+            "price": "40",
+            "description": "Head Shaving" }
+        ],
+        "address": "101 Main Street, Evanston",
+         "latLong": "42.0338977,-87.6719251",
+        "miles": "20",
+        "rating": "4",
+        "porfolio": "wwww.magickeun.com",
+        "active": "true"
+      },
+      { "name": "Rity Genius",
+        "id": "4",
+        "services": [
+          { "name": "First Date Impress Makeup",
+            "price": { "min": "40", "max": "160" },
+            "description": "" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Event Haircut",
+            "price": "40",
+            "description": "Special haircut for that important night" }
+        ],
+        "address": "200 River North, Chicago",
+        "latLong": "41.8881634,-87.6291315",
+        "miles": "10",
+        "rating": "1",
+        "porfolio": [],
+        "active": "true"
+      },
+      { "name": "Jon Snow",
+        "id": "5",
+        "services": [
+          { "name": "I dont know Makeup",
+            "price": { "min": "5", "max": "16" },
+            "description": "I know nothing" },
+          { "name": "I dont know Makeup",
+            "price": { "min": "5", "max": "16" },
+            "description": "I know nothing" },
+          { "name": "Kings headcut",
+            "price": "40",
+            "description": "Still does not know how to do this" }
+        ],
+        "address": "The Wall, Wasteros",
+        "latLong": "41.8881634,-87.6291315",
+        "miles": "100",
+        "rating": "2",
+        "porfolio": "",
+        "active": "true"
+      },
+      { "name": "Ayra Stark",
+        "id": "6",
+        "services": [
+          { "name": "3 Names Package",
+            "price": { "min": "5", "max": "16" },
+            "description": "Get 3 for 1 haircut party" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Noones face makeup",
+            "price": "40",
+            "description": "Change the way you look yourself" }
+        ],
+        "address": "Kings Landing, Wasteros",
+        "latLong": "41.8881634,-87.6291315",
+        "miles": "50",
+        "rating": "4",
+        "porfolio": "",
+        "active": "true"
+      },
+      { "name": "Hodor",
+        "id": "7",
+        "services": [
+          { "name": "Hodor",
+            "price": { "min": "Hodor", "max": "Hodor" },
+            "description": "Hodor" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Hodor",
+            "price": "Hodor",
+            "description": "Hodor" }
+        ],
+        "address": "Hodor",
+        "latLong": "41.8881634,-87.6291315",
+        "miles": "2",
+        "rating": "0",
+        "porfolio": "Hodor",
+        "active": "true"
+      },
+      { "name": "Nathalia Williams",
+        "id": "8",
+        "services": [
+          { "name": "Clothes perfect combination",
+            "price": { "min": "5", "max": "16" },
+            "description": "Assistence to buy clothes for that special date" },
+          { "name": "haircut",
+            "price": { "min": "20", "max": "60" },
+            "description": "" },
+          { "name": "Wedding Dress craft",
+            "price": "40",
+            "description": "I can make the best dress for you one in time wedding" }
+        ],
+        "address": "1330 Dearborn, Chicago",
+         "latLong": "41.9067345,-87.6304046",
+        "miles": "15",
+        "rating": "3",
+        "porfolio": [
+          { "image_url": "" },
+          { "image_url": "" },
+          { "image_url": "" }
+        ],
+        "active": "true"
+      }
+    ]
+  }
+}
+

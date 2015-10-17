@@ -1,0 +1,52 @@
+  <ion-view view-title="Vendor">
+  <ion-content class="padding">
+  <div class="item item-avatar service-item">
+  	<img src="img/vendor_placeholder.jpeg">
+  	<h2>{{vendor.name}}</h2>
+  	<p>Hair Stylist</p>
+  	<p>{{vendor.address}}</p>
+  	<p><span>Ave Rating: </span>{{vendor.rating}}</p>
+  	<p><span>Reviews: </span>5</p>
+  </div>
+
+  <div class="item service-item header-item">
+  	<h3>Services Offered</h3>
+  </div>
+
+  <div class="item tabs tabs-primary service-item services">
+  	<a class="tab-item" href="#" ng-repeat="service in vendor.services">
+  		{{ service.name }}
+  	</a>
+  </div>
+
+  <div class="item service-item header-item">
+  	<h3>Map</h3>
+  </div>
+
+  <div id="map" data-tap-disabled="true"></div>
+
+  <div class="item service-item header-item">
+  	<h3>Recent Reviews</h3>
+  </div>
+  <div class="list card" ng-repeat="review in reviews.reviews">
+  	<div class="item item-avatar">
+  		<img src="img/vendor_placeholder.jpeg">
+  		<h2> {{ review.name }} </h2>
+  		<p> Rating {{ review.rate }} </p>
+  	</div>
+  	<div class="item item-body">
+  		<p> {{ review.comments }} </p>
+  	</div>
+  </div>
+
+
+</ion-content>
+
+<div class="bar bar-footer bar-assertive">
+	<div class="button-bar">
+		<a class="button icon-left ion-ios-folder-outline">Portfolio</a>
+		<a class="button icon-left ion-android-contacts" href="#/vendor-reviews">All Reviews</a>
+		<a class="button icon-left ion-clock" href="#/vendor-service-booking">Book Appt.</a>
+	</div>
+</div>
+</ion-view>
